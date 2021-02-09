@@ -1,4 +1,4 @@
-package com.deezefy.deezefy.dto;
+/*package com.deezefy.deezefy.dto;
 
 import java.io.Serializable;
 
@@ -52,4 +52,4 @@ public class OuvinteDTO implements Serializable{
 		this.sobrenome = sobrenome;
 	}
 
-}
+}*/

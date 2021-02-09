@@ -1,11 +1,8 @@
-package com.deezefy.deezefy.entities;
+/*package com.deezefy.deezefy.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import java.io.Serializable;
 
-@Entity
-@Table(name = "usuario", schema = "deezefy")
-public class Ouvinte extends Usuario {
+public class Ouvinte implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 
@@ -17,7 +14,6 @@ public class Ouvinte extends Usuario {
     }
 
     public Ouvinte(String[] telefone, String primeiro_nome, String sobrenome) {
-        super();
         this.telefone = telefone;
         this.primeiro_nome = primeiro_nome;
         this.sobrenome = sobrenome;
@@ -46,4 +42,4 @@ public class Ouvinte extends Usuario {
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
-}
+}*/

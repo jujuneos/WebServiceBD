@@ -1,4 +1,4 @@
-package com.deezefy.deezefy.Repositories;
+/*package com.deezefy.deezefy.Repositories;
 
 import java.util.List;
 
@@ -10,3 +10,4 @@ public interface OuvinteRepository extends JpaRepository<Ouvinte, Long>{
 
 	List<Ouvinte> findAll();
 }
+*/

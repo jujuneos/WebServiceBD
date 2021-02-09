@@ -1,4 +1,4 @@
-package com.deezefy.deezefy.Services;
+/*package com.deezefy.deezefy.Services;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -30,3 +30,4 @@ public class OuvinteService {
         return new OuvinteDTO(ouvinte);
     }
 }
+*/

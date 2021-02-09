@@ -1,4 +1,4 @@
-package com.deezefy.deezefy.Controllers;
+/*package com.deezefy.deezefy.Controllers;
 
 import java.net.URI;
 import java.util.List;
@@ -35,4 +35,4 @@ public class OuvinteController {
                 .buildAndExpand(dto.getSobrenome()).toUri();
         return ResponseEntity.created(uri).body(dto);
     }
-}
+}*/
