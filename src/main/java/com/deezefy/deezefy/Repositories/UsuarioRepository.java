@@ -1,0 +1,12 @@
+package com.deezefy.deezefy.Repositories;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.deezefy.deezefy.entities.Usuario;
+
+public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
+
+	List<Usuario> findAll();
+}
