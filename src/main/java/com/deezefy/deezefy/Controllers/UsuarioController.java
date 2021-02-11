@@ -12,13 +12,13 @@ import com.deezefy.deezefy.Services.UsuarioService;
 import com.deezefy.deezefy.dto.UsuarioDTO;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/")
 public class UsuarioController {
 
 	@Autowired
 	private UsuarioService service;
 	
-	@GetMapping
+	@GetMapping(value = "users")
 	public ResponseEntity<List<UsuarioDTO>> findAll() {
 		List<UsuarioDTO> list = service.findAll();
 		return ResponseEntity.ok().body(list);
